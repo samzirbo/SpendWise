@@ -1,22 +1,5 @@
 package ro.sam.spendwise.data
 
-//create Transaction class
-
-enum class TransactionType {
-    INCOME,
-    EXPENSE
-}
-
-enum class TransactionCategory {
-    JOB,
-    FOOD,
-    CLOTHING,
-    UTILITIES,
-    LOAN,
-    SUBSCRIPTION,
-    OTHER
-}
-
 data class Transaction(
     val id: Int,
     var name: String,

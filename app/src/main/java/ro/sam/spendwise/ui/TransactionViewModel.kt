@@ -5,16 +5,13 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import ro.sam.spendwise.data.Transaction
-import ro.sam.spendwise.data.TransactionCategory
-import ro.sam.spendwise.data.TransactionType
 import java.util.Date
 
 class TransactionViewModel: ViewModel() {
-
     private val _uiState = MutableStateFlow(TransactionUIState())
     val uiState: StateFlow<TransactionUIState> = _uiState.asStateFlow()
-
     init {
+        println("TransactionViewModel init")
         _uiState.value = TransactionUIState(
             transactions = mutableListOf<Transaction>(
                 Transaction(1, "Transaction 1", "Income", 100.0, "2023-10-12", "Details 1"),
@@ -27,8 +24,7 @@ class TransactionViewModel: ViewModel() {
                 Transaction(8, "Transaction 8", "Expense", 20.0, "2023-10-18", "Details 8"),
                 Transaction(9, "Transaction 9", "Income", 180.0, "2023-10-19", "Details 9"),
                 Transaction(10, "Transaction 10", "Expense", 60.0, "2023-10-20", "Details 10"),
-            ),
-            idx = null
+            )
         )
     }
 
@@ -48,17 +44,18 @@ class TransactionViewModel: ViewModel() {
     }
 
     fun deleteTransaction(id: Int) {
+        val transaction = _uiState.value.transactions.find { it.id == id }
         _uiState.value = _uiState.value.copy(
             transactions = _uiState.value.transactions.filter { it.id != id }.toMutableList()
         )
-        println("Deleted $id -> ${printTransactions()}")
+        println("Deleted $transaction")
     }
 
     fun updateTransaction(transaction: Transaction) {
         _uiState.value = _uiState.value.copy(
             transactions = _uiState.value.transactions.map { if (it.id == transaction.id) transaction else it }.toMutableList()
         )
-        println("Updated -> ${printTransactions()}")
+        println("Updated -> $transaction")
     }
 
 
