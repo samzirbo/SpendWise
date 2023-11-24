@@ -4,11 +4,12 @@ class Transaction {
 
   static List<Transaction> init() {
     return [
-      Transaction(1, "Transaction 1", "Income", 100.0, "2023-10-12", "Details 1"),
-      Transaction(2, "Transaction 2", "Expense", 50.0, "2023-10-12", "Details 2"),
-      Transaction(3, "Transaction 3", "Income", 200.0, "2023-10-13", "Details 3"),
-      Transaction(4, "Transaction 4", "Expense", 30.0, "2023-10-14", "Details 4"),
-      Transaction(5, "Transaction 5", "Income", 150.0, "2023-10-15", "Details 5")
+      Transaction(1, "Transaction 1", "Income", 100.0, "12.10.2023", "Details 1"),
+      Transaction(2, "Transaction 2", "Expense", 200.0, "13.10.2023", "Details 2"),
+      Transaction(3, "Transaction 3", "Income", 300.0, "14.10.2023", "Details 3"),
+      Transaction(4, "Transaction 4", "Expense", 400.0, "15.10.2023", "Details 4"),
+      Transaction(5, "Transaction 5", "Income", 500.0, "16.10.2023", "Details 5"),
+
     ];
   }
 
