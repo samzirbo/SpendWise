@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "96B86543-23CB-41C2-B001-894A962D1976"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF6AFCFA-E6F5-4341-B717-AA7AA8533840"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpendWiseApp/Views/CreateView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "CF6AFCFA-E6F5-4341-B717-AA7AA8533840 - c1dba05388cbf133"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in SpendWiseApp.CreateView.body.getter : some"
+                  moduleName = "SpendWiseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/georgezirbo/Documents/UBB/Semester%205/Mobile%20Application%20Programming/SpendWise/Lab%204%20-%20Server%20Integration/SpendWiseApp/SpendWiseApp/Views/CreateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  uuid = "CF6AFCFA-E6F5-4341-B717-AA7AA8533840 - c1dba05388cbf133"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in SpendWiseApp.CreateView.body.getter : some"
+                  moduleName = "SpendWiseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/georgezirbo/Documents/UBB/Semester%205/Mobile%20Application%20Programming/SpendWise/Lab%204%20-%20Server%20Integration/SpendWiseApp/SpendWiseApp/Views/CreateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "708">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B55230B-5CA4-4652-A339-A666E722AF49"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpendWiseApp/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "addTransaction(id:name:type:amount:date:details:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBB9D983-5D2C-44DE-A0C0-9FA65EC4AD7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpendWiseApp/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "deleteTransaction(id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CAFAC60-1C05-4458-B34F-9ED979DD3580"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpendWiseApp/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "updateTransaction(id:name:type:amount:date:details:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CAFAC60-1C05-4458-B34F-9ED979DD3580 - b1aa80b211c32da1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SpendWiseApp.ViewModel.updateTransaction(id: Swift.Int, name: Swift.String, type: Swift.String, amount: Swift.Double, date: Foundation.Date, details: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "SpendWiseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/georgezirbo/Documents/UBB/Semester%205/Mobile%20Application%20Programming/SpendWise/Lab%204%20-%20Server%20Integration/SpendWiseApp/SpendWiseApp/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "6CAFAC60-1C05-4458-B34F-9ED979DD3580 - b1aa80b211c32da1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SpendWiseApp.ViewModel.updateTransaction(id: Swift.Int, name: Swift.String, type: Swift.String, amount: Swift.Double, date: Foundation.Date, details: Swift.String, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "SpendWiseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/georgezirbo/Documents/UBB/Semester%205/Mobile%20Application%20Programming/SpendWise/Lab%204%20-%20Server%20Integration/SpendWiseApp/SpendWiseApp/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0BA6F3B-D00A-4DB1-98BF-96777F4F73FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpendWiseApp/ViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "deleteTransaction(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E0BA6F3B-D00A-4DB1-98BF-96777F4F73FE - ae3b4d8c3231828f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SpendWiseApp.ViewModel.deleteTransaction(id: Swift.Int, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "SpendWiseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/georgezirbo/Documents/UBB/Semester%205/Mobile%20Application%20Programming/SpendWise/Lab%204%20-%20Server%20Integration/SpendWiseApp/SpendWiseApp/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "E0BA6F3B-D00A-4DB1-98BF-96777F4F73FE - ae3b4d8c3231828f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SpendWiseApp.ViewModel.deleteTransaction(id: Swift.Int, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "SpendWiseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/georgezirbo/Documents/UBB/Semester%205/Mobile%20Application%20Programming/SpendWise/Lab%204%20-%20Server%20Integration/SpendWiseApp/SpendWiseApp/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "E0BA6F3B-D00A-4DB1-98BF-96777F4F73FE - ae3b4d8c3231828f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SpendWiseApp.ViewModel.deleteTransaction(id: Swift.Int, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "SpendWiseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/georgezirbo/Documents/UBB/Semester%205/Mobile%20Application%20Programming/SpendWise/Lab%204%20-%20Server%20Integration/SpendWiseApp/SpendWiseApp/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "E0BA6F3B-D00A-4DB1-98BF-96777F4F73FE - ae3b4d8c3231828f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SpendWiseApp.ViewModel.deleteTransaction(id: Swift.Int, completion: () -&gt; ()) -&gt; ()"
+                  moduleName = "SpendWiseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/georgezirbo/Documents/UBB/Semester%205/Mobile%20Application%20Programming/SpendWise/Lab%204%20-%20Server%20Integration/SpendWiseApp/SpendWiseApp/ViewModel/ViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "572">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
